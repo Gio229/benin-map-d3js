@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Benin Republic Map with D3.js</title>
+	<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
+		media="all">
+	<link rel="stylesheet" href="assets/css/tooltip-d3-js-map.css">
+	<link href="assets/css/main.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+
+	<!-- Tooltip box that appears when mouse hovers over a province on Pakistan map.  -->
+	<div id="tooltip" class="hidden">
+		<div><strong>Region:</strong> <span id="region-name-tooltip">100</span></div>
+		<div><strong>Type:</strong> <span id="region-type-tooltip">200</span></div>
+	</div>
+
+
+	<div class='container-fluid'>
+		<div class='row'>
+			<div id="map" class='col-md-9 text-center'></div>
+
+			<div id="sidebar" class='col-md-3'>
+				<div class="card">
+					<h1>Benin Republic</h1>
+					<p>
+						A map of Benin Republic with department. <br> Hover over a department to see its name.
+					</p>
+					<div>
+						<div>
+							<strong>Region:</strong> <span id="region-name" class="badge badge-warning"></span>
+						</div>
+						<div>
+							<strong>Type:</strong> <span id="region-type" class="badge badge-warning"></span>
+						</div>
+					</div>
+
+					<div style=" margin-top: 1em">
+						<a href="https:www.linkedin.com/in/giovanni-atchaoue">
+							<i class="fa fa-linkedin-square fa-3x"></i>
+						</a>
+						<a href="https://github.com/Gio229">
+							<i class="fa fa-github fa-3x"></i>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+	<script src="//d3js.org/topojson.v1.min.js"></script>
+
+	<!-- D3.js code creates map of Benin. -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
