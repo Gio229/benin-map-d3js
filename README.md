@@ -15,7 +15,7 @@ It's quiet simple.
 
 Clone the repo
 
-    	git clone https://github.com/Gio229/benin-map-d3js.git
+    git clone https://github.com/Gio229/benin-map-d3js.git
 
 Then start the project with an `HTTP server`
 
